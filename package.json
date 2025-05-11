@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "@react-three/drei": "^10.0.7",
+    "@react-three/drei": "^9.74.4",
     "@react-three/fiber": "^8.18.0",
     "framer-motion": "^12.9.2",
     "framer-motion-3d": "^12.4.13",
@@ -21,7 +21,7 @@
     "react-router-dom": "^6.22.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.5.3",
-    "three": "^0.176.0"
+    "three": "^0.154.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
@@ -31,8 +31,10 @@
     "eslint": "^8.55.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
-    "vite": "^6.3.3"
+    "vite": "^6.3.3",
+    "vite-plugin-compression": "^0.5.1"
   }
 }
