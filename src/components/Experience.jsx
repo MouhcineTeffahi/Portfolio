@@ -72,7 +72,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <div className="max-w-7xl mx-auto px-4">
-      <motion.div variants={textVariant()} className="text-center mb-12">
+      <motion.div className="text-center mb-12">
         <p className='text-purple-400 font-medium text-lg mb-2'>
           What I have done so far
         </p>

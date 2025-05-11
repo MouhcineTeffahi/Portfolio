@@ -64,8 +64,8 @@ const Moon = () => {
   return (
     <primitive 
       object={scene} 
-      scale={window.innerWidth < 768 ? 0.2 : 1.5}
-      position={[0, 0, 0]}
+      scale={window.innerWidth < 768 ? 0.3 : 1.5}
+      position={window.innerWidth < 768 ? [0, 1.3, 0] : [0, 0, 0]}
       rotation={[0, Math.PI / 4, 0]}
     />
   );

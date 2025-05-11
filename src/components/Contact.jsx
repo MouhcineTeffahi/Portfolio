@@ -140,7 +140,7 @@ const Contact = () => {
           className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
         >
           <img 
-            src="/src/assets/mouhcine.png" 
+            src="/mouhcine.png" 
             alt="Mouhcine" 
             className="w-full h-full object-contain rounded-2xl"
           />
