@@ -15,7 +15,7 @@ const Tech = () => {
         </h2>
       </motion.div>
 
-      <div className='flex flex-row flex-wrap justify-center gap-8'>
+      <div className='flex flex-row flex-wrap justify-center gap-8 section-icon'>
         {technologies.map((technology) => (
           <div 
             className='w-28 h-28 group relative' 

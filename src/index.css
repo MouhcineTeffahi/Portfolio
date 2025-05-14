@@ -18,6 +18,12 @@
   padding-bottom: 100px;
   display: block;
 }
+.section-icon img {
+  filter: grayscale(1);
+}
+.section-icon img:hover {
+  filter: opacity(1);
+}
 @media (max-width:768px) {
   span#work {
       display: none;

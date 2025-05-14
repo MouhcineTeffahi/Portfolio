@@ -184,7 +184,7 @@ const Works = () => {
 
       {/* Projects Section */}
       <div className='relative z-10 px-4 py-16'>
-        <motion.div variants={textVariant()} className="text-center mb-12">
+        <motion.div className="text-center mb-12">
           <p className='text-purple-400 font-medium text-lg mb-2'>My work</p>
           <h2 className='text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent'>
             Projects
@@ -193,7 +193,7 @@ const Works = () => {
 
         <div className='w-full flex justify-center'>
           <motion.p
-            variants={fadeIn("", "", 0.1, 1)}
+            
             className='text-white text-lg md:text-md max-w-3xl leading-relaxed text-center mb-16'
           >
             These showcased projects represent practical examples of my development work. Each one includes source code and live demo links. They illustrate my expertise in full-stack development, adaptability with various technologies, and focus on building reliable, user-focused solutions.
